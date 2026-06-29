@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auntie Gaik Lean's — Revenue & Growth Strategy</title>
+<meta name="description" content="Strategic options for monetising and scaling Auntie Gaik Lean's Old School Eatery — flagship yield, packaged products, multi-outlet expansion, franchising and brand licensing — mapped by revenue potential, feasibility and brand risk.">
+<style>
+  :root{
+    --indigo:#16243f;--indigo-deep:#0e1729;--indigo-soft:#1f3252;
+    --porcelain:#f5efe2;--porcelain-2:#ece2cf;--card:#fbf7ee;
+    --jade:#1f9d8b;--jade-bright:#34c2a8;--jade-deep:#127867;
+    --rose:#d24a6c;--rose-soft:#e98aa1;--rose-deep:#a82f50;
+    --saffron:#e6a531;--gold:#c9962f;
+    --ink:#1a2334;--muted:#5e6678;--line:#ddd2bd;
+    --maxw:1140px;
+    --serif:'Palatino Linotype','Book Antiqua',Palatino,'Hoefler Text',Georgia,'Times New Roman',serif;
+    --sans:system-ui,-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono','Roboto Mono',Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--porcelain);color:var(--ink);font-family:var(--sans);line-height:1.62;font-size:17px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.13;text-wrap:balance;margin:0}
+  a{color:inherit}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .eyebrow{font-family:var(--mono);text-transform:uppercase;letter-spacing:.22em;font-size:11.5px;font-weight:600}
+  .tnum{font-variant-numeric:tabular-nums}
+  .tileband{height:14px;width:100%;background:
+      radial-gradient(circle at 50% 50%, var(--saffron) 0 3px, transparent 3.5px) 0 0/28px 28px,
+      repeating-linear-gradient(45deg, var(--rose) 0 6px, transparent 6px 14px),
+      linear-gradient(90deg,var(--jade),var(--jade));opacity:.9}
+
+  header.nav{position:sticky;top:0;z-index:50;background:rgba(14,23,41,.93);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.08)}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;color:#f3ecdd}
+  .brandmini{font-family:var(--serif);font-weight:600;font-size:16px;display:flex;align-items:center;gap:9px}
+  .brandmini .dot{color:var(--saffron)}
+  .navlinks{display:flex;gap:24px;align-items:center}
+  .navlinks a{font-family:var(--mono);font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;text-decoration:none;color:#cdbfa6;transition:color .2s}
+  .navlinks a:hover{color:var(--saffron)}
+  .navlinks a.back{color:var(--jade-bright)}
+  @media(max-width:820px){.navlinks a:not(.back){display:none}}
+
+  .hero{position:relative;background:var(--indigo);color:#f3ecdd;overflow:hidden;padding:70px 0 60px}
+  .hero::before{content:"";position:absolute;inset:0;opacity:.10;pointer-events:none;background:
+      radial-gradient(circle at 50% 50%, #fff 0 2px, transparent 2.5px) 0 0/46px 46px,
+      repeating-linear-gradient(45deg, var(--jade-bright) 0 10px, transparent 10px 23px),
+      repeating-linear-gradient(-45deg, var(--saffron) 0 10px, transparent 10px 23px)}
+  .hero .wrap{position:relative}
+  .hero .eyebrow{color:var(--saffron)}
+  .hero h1{font-size:clamp(34px,5.6vw,64px);letter-spacing:-.01em;margin:14px 0 0}
+  .hero h1 em{font-style:italic;color:var(--jade-bright)}
+  .lede{max-width:62ch;margin:20px 0 0;font-size:19px;color:#e4d9c3}
+  .thesis{margin-top:26px;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid rgba(255,255,255,.14);border-radius:12px;overflow:hidden}
+  .thesis .t{padding:18px 20px;border-right:1px solid rgba(255,255,255,.12)}
+  .thesis .t:last-child{border-right:none}
+  .thesis .tl{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--saffron)}
+  .thesis .tv{margin-top:7px;font-size:14.5px;color:#e8ddc7}
+  @media(max-width:720px){.thesis{grid-template-columns:1fr}.thesis .t{border-right:none;border-bottom:1px solid rgba(255,255,255,.12)}}
+
+  section{padding:72px 0}
+  section.alt{background:var(--card)}
+  section.dark{background:var(--indigo);color:#f0e8d8}
+  .sechead{max-width:76ch;margin-bottom:40px}
+  .kicker-line{width:54px;height:3px;background:var(--jade);border-radius:2px}
+  section.dark .kicker-line{background:var(--saffron)}
+  .sechead .eyebrow{color:var(--jade);margin-top:14px;display:block}
+  section.dark .sechead .eyebrow{color:var(--saffron)}
+  .sechead h2{font-size:clamp(27px,4vw,40px);margin:12px 0 0}
+  .sechead p{color:var(--muted);font-size:18px;margin:15px 0 0;max-width:66ch}
+  section.dark .sechead p{color:#cdbfa6}
+
+  /* principle banner */
+  .principle{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border-radius:16px;overflow:hidden;border:1px solid var(--line)}
+  @media(max-width:760px){.principle{grid-template-columns:1fr}}
+  .principle .p1{background:var(--indigo);color:#ede3d0;padding:32px 34px}
+  .principle .p2{background:var(--card);padding:32px 34px}
+  .principle h3{font-size:23px;margin-bottom:10px}
+  .principle .p1 h3{color:var(--saffron)}
+  .principle .p2 h3{color:var(--rose-deep)}
+  .principle ul{margin:14px 0 0;padding-left:18px}
+  .principle li{margin:0 0 9px;font-size:15px}
+  .principle .p1 li{color:#d9ccb4}
+  .principle .p2 li{color:#36405a}
+
+  /* MATRIX */
+  .matrixwrap{display:grid;grid-template-columns:1.4fr .9fr;gap:30px;align-items:stretch}
+  @media(max-width:900px){.matrixwrap{grid-template-columns:1fr}}
+  .plot{position:relative;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px 30px 26px}
+  .plotbox{position:relative;height:430px;margin:30px 0 8px 30px;
+    border-left:2px solid var(--line);border-bottom:2px solid var(--line)}
+  .plotbox .grid-h,.plotbox .grid-v{position:absolute;background:repeating-linear-gradient(90deg,#e7dcc6 0 1px,transparent 1px 8px)}
+  .quad-label{position:absolute;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#a89a7e}
+  .axis-y{position:absolute;left:-30px;top:50%;transform:rotate(-90deg) translateX(50%);transform-origin:left;
+    font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+  .axis-x{position:absolute;bottom:-26px;left:50%;transform:translateX(-50%);
+    font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .dot{position:absolute;transform:translate(-50%,50%);width:auto;cursor:pointer;z-index:2}
+  .dot .bub{width:var(--sz,34px);height:var(--sz,34px);border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-family:var(--mono);font-weight:700;font-size:13px;color:#fff;border:2px solid rgba(255,255,255,.7);
+    box-shadow:0 6px 16px -6px rgba(20,30,55,.5);transition:transform .18s}
+  .dot:hover .bub,.dot.active .bub{transform:scale(1.18)}
+  .dot.r-low .bub{background:var(--jade)}
+  .dot.r-med .bub{background:var(--saffron)}
+  .dot.r-high .bub{background:var(--rose)}
+  .dot .dlab{position:absolute;left:50%;top:-6px;transform:translate(-50%,-100%);white-space:nowrap;
+    font-size:10.5px;color:var(--ink);background:rgba(251,247,238,.9);padding:1px 5px;border-radius:4px;opacity:0;transition:opacity .15s;pointer-events:none}
+  .dot:hover .dlab{opacity:1}
+  .plot .riskkey{display:flex;gap:16px;margin-top:30px;font-size:12.5px;flex-wrap:wrap}
+  .plot .riskkey span{display:flex;align-items:center;gap:7px;color:var(--muted)}
+  .plot .riskkey i{width:12px;height:12px;border-radius:50%;display:inline-block}
+
+  .detail{background:var(--indigo);color:#ede3d0;border-radius:16px;padding:28px 30px;align-self:stretch;min-height:430px}
+  .detail .dnum{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--saffron);text-transform:uppercase}
+  .detail h3{color:#fff;font-size:23px;margin:8px 0 4px}
+  .detail .tagrow{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 16px}
+  .detail .tg{font-family:var(--mono);font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;padding:3px 9px;border-radius:20px;background:rgba(255,255,255,.1);color:#e8ddc7}
+  .detail .tg.risk-low{background:rgba(52,194,168,.2);color:#9be8d8}
+  .detail .tg.risk-med{background:rgba(230,165,49,.22);color:#f3cd86}
+  .detail .tg.risk-high{background:rgba(233,138,161,.2);color:#f5b6c4}
+  .detail p{font-size:14.5px;color:#d9ccb4;margin:0 0 14px}
+  .detail .mini{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#b6a888;margin-bottom:4px}
+  .detail .model{background:rgba(255,255,255,.06);border-radius:10px;padding:14px 16px;font-size:13.5px;color:#e8ddc7}
+
+  /* brand architecture pyramid */
+  .pyr{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+  .tier{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;border-radius:14px;padding:20px 24px;position:relative;color:#fff}
+  .tier .tnum2{font-family:var(--serif);font-size:30px;font-weight:600;opacity:.85}
+  .tier h3{font-size:20px;margin-bottom:3px;color:#fff}
+  .tier p{margin:0;font-size:14px;opacity:.92}
+  .tier .meta{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;margin-top:8px;opacity:.85}
+  .tier.t1{background:linear-gradient(100deg,#0e1729,#27406a);margin:0 0 0 0}
+  .tier.t2{background:linear-gradient(100deg,#13705f,#1f9d8b);margin:0 4% 0 0}
+  .tier.t3{background:linear-gradient(100deg,#b97f14,#e6a531);margin:0 8% 0 0}
+  .tier.t4{background:linear-gradient(100deg,#a82f50,#d24a6c);margin:0 12% 0 0}
+  .pyr-axis{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:14px}
+  .star-badge{position:absolute;top:14px;right:18px;font-size:11px;font-family:var(--mono);letter-spacing:.06em;color:#ffd98a}
+
+  /* generic cards grid */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:860px){.grid3{grid-template-columns:1fr 1fr}}
+  @media(max-width:560px){.grid3{grid-template-columns:1fr}}
+  .gcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+  .gcard h4{font-size:18px;margin-bottom:8px}
+  .gcard p{margin:0;color:#36405a;font-size:14.5px}
+  .gcard .tagline{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--jade-deep);margin-bottom:9px}
+
+  /* two-col franchise table */
+  .splitcols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  @media(max-width:720px){.splitcols{grid-template-columns:1fr}}
+  .col{border-radius:14px;padding:24px 26px}
+  .col.yes{background:rgba(31,157,139,.09);border:1px solid rgba(31,157,139,.3)}
+  .col.no{background:rgba(210,74,108,.07);border:1px solid rgba(210,74,108,.28)}
+  .col h4{font-size:18px;margin-bottom:6px}
+  .col.yes h4{color:var(--jade-deep)}
+  .col.no h4{color:var(--rose-deep)}
+  .col ul{margin:12px 0 0;padding-left:0;list-style:none}
+  .col li{padding:9px 0 9px 26px;position:relative;font-size:14.5px;border-bottom:1px dashed var(--line)}
+  .col li:last-child{border-bottom:none}
+  .col.yes li::before{content:"✓";position:absolute;left:0;color:var(--jade);font-weight:700}
+  .col.no li::before{content:"✕";position:absolute;left:0;color:var(--rose);font-weight:700}
+
+  /* econ stat row */
+  .econ{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:8px}
+  @media(max-width:760px){.econ{grid-template-columns:repeat(2,1fr)}}
+  .econ .e{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:20px}
+  .econ .e .en{font-family:var(--serif);font-size:25px;font-weight:600;color:var(--jade-deep)}
+  .econ .e .el{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+  .econ .e .ex{font-size:12.5px;color:#36405a;margin-top:9px;line-height:1.4}
+
+  /* revenue mix toggle */
+  .mixwrap{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px 30px}
+  .toggle{display:inline-flex;border:1px solid var(--line);border-radius:30px;overflow:hidden;margin-bottom:24px}
+  .toggle button{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;padding:9px 18px;border:none;background:transparent;color:var(--muted);cursor:pointer}
+  .toggle button.active{background:var(--indigo);color:#f3ecdd}
+  .mixbar{display:flex;height:54px;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+  .mixseg{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:600;
+    transition:width .8s cubic-bezier(.2,.7,.2,1);overflow:hidden;white-space:nowrap;min-width:0}
+  .mixlegend{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px;font-size:13px}
+  .mixlegend .li{display:flex;align-items:center;gap:8px;color:var(--muted)}
+  .mixlegend .sw{width:13px;height:13px;border-radius:3px}
+
+  /* roadmap timeline */
+  .tl{position:relative;margin-top:10px;padding-left:6px}
+  .tl::before{content:"";position:absolute;left:13px;top:6px;bottom:6px;width:2px;background:rgba(255,255,255,.18)}
+  .tlitem{position:relative;padding:0 0 30px 46px}
+  .tlitem:last-child{padding-bottom:0}
+  .tlitem .node{position:absolute;left:5px;top:3px;width:18px;height:18px;border-radius:50%;background:var(--indigo);border:3px solid var(--jade-bright)}
+  .tlitem .yr{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--jade-bright)}
+  .tlitem h4{font-size:19px;margin:4px 0 6px;color:#f3ecdd}
+  .tlitem ul{margin:0;padding-left:18px}
+  .tlitem li{color:#cdbfa6;font-size:14.5px;margin:0 0 5px}
+
+  /* risk register */
+  .risks{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  @media(max-width:720px){.risks{grid-template-columns:1fr}}
+  .risk{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--rose);border-radius:12px;padding:20px 22px}
+  .risk h4{font-size:16px;margin-bottom:4px}
+  .risk .sev{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:20px;float:right}
+  .sev.high{background:rgba(210,74,108,.15);color:var(--rose-deep)}
+  .sev.med{background:rgba(230,165,49,.2);color:#9a6f12}
+  .risk p{margin:8px 0 0;font-size:13.5px;color:#36405a}
+  .risk .mit{margin-top:10px;font-size:13px;color:var(--jade-deep)}
+  .risk .mit b{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase}
+
+  footer{background:var(--indigo-deep);color:#bcae93;padding:50px 0 56px;font-size:14px}
+  footer h4{color:#f3ecdd;font-size:17px;margin-bottom:10px}
+  footer a{color:#cdbfa6}
+  .disclaimer{border-top:1px solid rgba(255,255,255,.1);margin-top:30px;padding-top:18px;font-size:11.5px;color:#8c8068;max-width:95ch}
+
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.mixseg{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <div class="brandmini"><span class="dot">✦</span> Auntie Gaik Lean's · Growth Strategy</div>
+    <nav class="navlinks">
+      <a href="#principle">Principle</a>
+      <a href="#matrix">Options</a>
+      <a href="#expansion">Outlets</a>
+      <a href="#franchise">Franchise</a>
+      <a href="#roadmap">Roadmap</a>
+      <a class="back" href="https://claude.ai/code/artifact/32e48fd8-9483-45a6-a007-334db1626c87">↩ Review Analysis</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Monetisation &amp; Growth Strategy · Strategic Options Memo</div>
+    <h1>How a one-table star<br>becomes <em>an enduring brand</em></h1>
+    <p class="lede">Auntie Gaik Lean's owns three rare assets at once — a Michelin star, decades of secret Peranakan recipes, and a beloved heritage name. The strategic question isn't <em>whether</em> to grow, but how to monetise that equity at scale <strong>without diluting the star that created it</strong>. This memo maps the realistic paths — from flagship yield to packaged products, more outlets and franchising.</p>
+    <div class="thesis">
+      <div class="t"><div class="tl">The asset</div><div class="tv">A Michelin star, irreplaceable recipes &amp; a national-treasure chef brand.</div></div>
+      <div class="t"><div class="tl">The constraint</div><div class="tv">The star is tied to one room &amp; one ~73-year-old chef. Succession &amp; quality are existential.</div></div>
+      <div class="t"><div class="tl">The play</div><div class="tv">Protect the flagship; scale the <em>brand &amp; recipes</em> through asset-light, IP-led channels.</div></div>
+    </div>
+  </div>
+</section>
+<div class="tileband"></div>
+
+<!-- GUIDING PRINCIPLE -->
+<section id="principle">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">The Guiding Principle</span>
+      <h2>Protect the star. Scale the brand.</h2>
+      <p>You cannot franchise a Michelin star — it is awarded to one restaurant, re-judged yearly, and anchored to the chef. Every growth move must therefore separate the things that <em>must stay rare</em> from the things that <em>can scale</em>.</p>
+    </div>
+    <div class="principle reveal">
+      <div class="p1">
+        <h3>Keep rare &amp; protected</h3>
+        <ul>
+          <li>The Bishop Street flagship and its one-star dining experience.</li>
+          <li>Auntie Gaik Lean's personal presence and the "temple" mystique.</li>
+          <li>The most secret recipes — produced only at a controlled central kitchen.</li>
+          <li>Scarcity itself: the queue and the deposit are part of the brand.</li>
+        </ul>
+      </div>
+      <div class="p2">
+        <h3>Scale &amp; monetise</h3>
+        <ul>
+          <li>The <b>name &amp; story</b> — licensable across products, media and venues.</li>
+          <li>The <b>recipes as products</b> — bottled sauces, pastes and meal kits.</li>
+          <li>A separate <b>casual sub-brand</b> built for throughput and franchising.</li>
+          <li>The <b>know-how</b> — classes, cookbook, training academy, content.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OPTIONS MATRIX -->
+<section id="matrix" class="alt">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">The Opportunity Map</span>
+      <h2>Eight revenue paths, plotted</h2>
+      <p>Each option positioned by revenue potential against feasibility, and colour-coded by how much it risks the brand/star. Tap any bubble for the model. The big prizes — packaged products, more outlets and franchising — sit top-right and demand the most discipline.</p>
+    </div>
+    <div class="matrixwrap reveal">
+      <div class="plot">
+        <div class="plotbox" id="plotbox">
+          <span class="axis-y">Revenue potential →</span>
+          <span class="axis-x">Feasibility / speed →</span>
+          <span class="quad-label" style="left:8px;top:6px">High value · harder</span>
+          <span class="quad-label" style="right:8px;top:6px">High value · easier</span>
+          <span class="quad-label" style="right:8px;bottom:6px">Quick · smaller</span>
+        </div>
+        <div class="riskkey">
+          <span><i style="background:var(--jade)"></i> Low brand risk</span>
+          <span><i style="background:var(--saffron)"></i> Moderate</span>
+          <span><i style="background:var(--rose)"></i> High — handle with care</span>
+        </div>
+      </div>
+      <div class="detail" id="detail" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- BRAND ARCHITECTURE -->
+<section id="architecture" class="dark">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">Brand Architecture</span>
+      <h2 style="color:#f3ecdd">One brand, four tiers — price falls, volume rises</h2>
+      <p>The structure that lets the business grow without putting the star at risk. The flagship stays singular at the top; each tier below trades exclusivity for reach, and the secret recipes flow down as finished, controlled products.</p>
+    </div>
+    <div class="pyr reveal">
+      <div class="tier t1"><div class="tnum2">01</div><div>
+        <span class="star-badge">★ never franchised</span>
+        <h3>The Flagship — "the temple"</h3>
+        <p>The one-star Bishop Street eatery. Chef-led, reservation-only, scarce by design.</p>
+        <div class="meta">1 outlet · ~RM150–250 / head · protect at all costs</div></div></div>
+      <div class="tier t2"><div class="tnum2">02</div><div>
+        <h3>Casual Nyonya — the growth engine</h3>
+        <p>A company-owned daytime kopitiam / deli: set lunches, kuih, signature dishes at accessible prices. Higher throughput, and the prototype that proves the franchise model.</p>
+        <div class="meta">2–5 owned outlets · ~RM30–60 / head · KL &amp; Penang</div></div></div>
+      <div class="tier t3"><div class="tnum2">03</div><div>
+        <h3>Franchise — the casual concept, licensed</h3>
+        <p>Once the casual format is systemised, licensed to operators regionally — supplied with central-kitchen sauces so recipes never leave the vault.</p>
+        <div class="meta">Many units · royalty + supply margin · SG, Jakarta, Dubai, London</div></div></div>
+      <div class="tier t4"><div class="tnum2">04</div><div>
+        <h3>Retail &amp; products — mass &amp; export</h3>
+        <p>Bottled sambal, gulai-tumis paste, achar, meal kits, frozen pie-tee shells. Sold at the flagship, online, in supermarkets and to the global Nyonya diaspora.</p>
+        <div class="meta">Unlimited reach · highest margin · preserves the recipes</div></div></div>
+    </div>
+    <div class="pyr-axis"><span>↑ Scarcity, price, prestige</span><span>Volume, reach, accessibility ↓</span></div>
+  </div>
+</section>
+
+<!-- EXPANSION DEEP DIVE -->
+<section id="expansion">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">Path A · More Outlets</span>
+      <h2>Expansion — grow the footprint without copying the star</h2>
+      <p>Cloning the flagship is the trap: a second "Auntie Gaik Lean's fine-dining" splits the chef, doubles the quality risk and cannot itself be starred. The winning expansion is <em>tiered</em> — a different, more casual format that travels.</p>
+    </div>
+    <div class="grid3 reveal">
+      <div class="gcard">
+        <div class="tagline">Move 1 · Near-term</div>
+        <h4>A casual Nyonya outlet in KL</h4>
+        <p>Kuala Lumpur has the capital's spending power, the tourist volume and no equivalent name. A daytime café-deli format — set lunches, kuih counter, signatures — captures demand the single Penang room turns away every night.</p>
+      </div>
+      <div class="gcard">
+        <div class="tagline">Move 2 · Throughput</div>
+        <h4>Daytime &amp; all-week trading</h4>
+        <p>The flagship closes Mon–Tue and serves two short sittings. A casual sibling trades all week with fast lunch turns and a grab-and-go kuih/retail counter — lifting revenue per square foot dramatically.</p>
+      </div>
+      <div class="gcard">
+        <div class="tagline">Move 3 · Tourist gateways</div>
+        <h4>Airport &amp; mall kiosks</h4>
+        <p>Penang &amp; KLIA kiosks selling kuih, packaged sauces and gift sets convert the Michelin name into impulse and gifting revenue from departing travellers — asset-light and brand-building.</p>
+      </div>
+      <div class="gcard">
+        <div class="tagline">Discipline</div>
+        <h4>Company-owned first</h4>
+        <p>Own the first 2–3 casual units outright. They are the proof-of-concept, the training ground and the operating manual the franchise model will later sell.</p>
+      </div>
+      <div class="gcard">
+        <div class="tagline">Sub-brand</div>
+        <h4>Name it as a sibling, not a clone</h4>
+        <p>e.g. "Gaik Lean's Kopitiam" or "Auntie's Nyonya Deli" — clearly endorsed by the flagship, but free to be casual so it never competes with, or cheapens, the star.</p>
+      </div>
+      <div class="gcard">
+        <div class="tagline">Central kitchen</div>
+        <h4>Build the commissary early</h4>
+        <p>A central kitchen producing pastes &amp; sauces underwrites consistency across every outlet — and becomes the engine for both franchising and retail products.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FRANCHISE DEEP DIVE -->
+<section id="franchise" class="alt">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">Path B · Franchise</span>
+      <h2>Franchising — license the format, never the star</h2>
+      <p>Franchising is the fastest route to scale and the most capital-light, but also the highest brand risk. It works only after the casual concept is fully systemised — and only if the secret recipes stay locked in a central kitchen and reach franchisees as finished product.</p>
+    </div>
+
+    <h3 style="font-size:21px;margin-bottom:14px" class="reveal">What can — and cannot — be franchised</h3>
+    <div class="splitcols reveal">
+      <div class="col yes">
+        <h4>Franchisable</h4>
+        <ul>
+          <li>The casual sub-brand name, identity &amp; shopfit design</li>
+          <li>Standardised menu of robust, travel-proof dishes</li>
+          <li>Central-kitchen sauces, pastes &amp; spice blends (sold to franchisees)</li>
+          <li>Operating manuals, SOPs &amp; a training academy</li>
+          <li>Supply chain, POS and marketing playbook</li>
+        </ul>
+      </div>
+      <div class="col no">
+        <h4>Never franchised</h4>
+        <ul>
+          <li>The Michelin-starred flagship &amp; the star itself</li>
+          <li>The raw secret recipes — shipped only as finished paste</li>
+          <li>Auntie's personal cooking &amp; on-site presence</li>
+          <li>Bespoke / signature fine-dining dishes</li>
+          <li>Any claim that a franchise outlet is "Michelin-starred"</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="font-size:21px;margin:40px 0 14px" class="reveal">The franchise economics</h3>
+    <div class="econ reveal">
+      <div class="e"><div class="en">Upfront</div><div class="el">Franchise / territory fee</div><div class="ex">One-time licence per outlet (plus master-franchise fees for a country/region).</div></div>
+      <div class="e"><div class="en">5–7%</div><div class="el">Royalty on gross sales</div><div class="ex">The recurring cut of every franchisee's turnover.</div></div>
+      <div class="e"><div class="en">1–2%</div><div class="el">Marketing levy</div><div class="ex">Pooled fund for brand &amp; campaign spend across the network.</div></div>
+      <div class="e"><div class="en">Supply</div><div class="el">Central-kitchen margin</div><div class="ex">The real moat: mandatory sauce/paste purchases protect the IP <em>and</em> earn margin on every unit, forever.</div></div>
+    </div>
+    <p style="color:var(--muted);font-size:14px;margin-top:18px">Figures are illustrative of standard F&amp;B franchise structures, not a quoted offer. The strategic point: the <b>central-kitchen supply margin</b>, not the royalty, is what makes franchising both safe (recipes never leave) and durably profitable.</p>
+
+    <h3 style="font-size:21px;margin:40px 0 14px" class="reveal">A staged franchise rollout</h3>
+    <div class="grid3 reveal">
+      <div class="gcard"><div class="tagline">Stage 1</div><h4>Prove it (owned)</h4><p>Run 2–3 company-owned casual outlets to ~18 months of stable, repeatable economics before selling a single franchise.</p></div>
+      <div class="gcard"><div class="tagline">Stage 2</div><h4>Domestic master franchise</h4><p>Award selected operators in KL, Johor &amp; the Klang Valley, with tight QA audits and central-kitchen supply.</p></div>
+      <div class="gcard"><div class="tagline">Stage 3</div><h4>Regional &amp; diaspora</h4><p>Master-franchise partners in Singapore, Jakarta, Bangkok, Dubai and London — cities with strong Peranakan and Malaysian-diaspora demand.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS & OTHER PATHS -->
+<section id="products">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">Path C · Beyond the Dining Room</span>
+      <h2>The asset-light, recipe-led income streams</h2>
+      <p>These monetise the brand and the recipes with little operational risk to the star — and several double as succession insurance, capturing Auntie's knowledge before it walks out the door.</p>
+    </div>
+    <div class="grid3 reveal">
+      <div class="gcard"><div class="tagline">Highest scalability</div><h4>Packaged sauces &amp; meal kits</h4><p>Bottled sambal, gulai-tumis paste, achar, ready-to-cook kits and frozen pie-tee shells — retailed at the flagship, online, in supermarkets and exported. The cleanest way to sell the recipes at volume.</p></div>
+      <div class="gcard"><div class="tagline">Brand &amp; legacy</div><h4>Cookbook &amp; the memoir</h4><p>A memoir is reportedly already in progress. A signed cookbook and recipe IP turn the story into a perennial gift-shop and bookstore product — and preserve the canon.</p></div>
+      <div class="gcard"><div class="tagline">High margin</div><h4>Cooking classes &amp; experiences</h4><p>Paid Nyonya masterclasses, heritage food tours and premium "dine-with-Auntie" sessions — leveraging the existing Penang Global Tourism partnership.</p></div>
+      <div class="gcard"><div class="tagline">Reach</div><h4>Pop-ups &amp; guest residencies</h4><p>Time-boxed residencies in Singapore, Hong Kong or Dubai luxury hotels — already proven with the Peppermint buffet collaboration. High visibility, low fixed cost.</p></div>
+      <div class="gcard"><div class="tagline">Premium / careful</div><h4>Hotel brand licensing</h4><p>A licensed "Auntie Gaik Lean's" Nyonya restaurant inside a luxury hotel — lucrative but brand-risky; only with a strong operator and rigorous standards.</p></div>
+      <div class="gcard"><div class="tagline">Flagship yield</div><h4>Premiumise the flagship</h4><p>A curated tasting / degustation menu, a chef's table, a beverage pairing programme and prepaid ticketing lift revenue per cover from the seats you already have.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVENUE MIX -->
+<section id="mix" class="alt">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">The Shift</span>
+      <h2>From one income stream to a portfolio</h2>
+      <p>Today nearly all revenue comes from ~30 seats on Bishop Street. The strategy diversifies that into a balanced portfolio where products, franchise royalties and experiences carry the growth — and de-risk the chef. Illustrative, not forecast.</p>
+    </div>
+    <div class="mixwrap reveal">
+      <div class="toggle" id="mixtoggle">
+        <button class="active" data-m="today">Today</button>
+        <button data-m="future">5-year target</button>
+      </div>
+      <div class="mixbar" id="mixbar"></div>
+      <div class="mixlegend" id="mixlegend"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="dark">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">Sequencing</span>
+      <h2 style="color:#f3ecdd">A phased roadmap</h2>
+      <p>Earn the right to scale. Each phase funds and de-risks the next, and nothing touches the flagship's standards.</p>
+    </div>
+    <div class="tl reveal">
+      <div class="tlitem"><span class="node"></span><div class="yr">Phase 1 · 0–12 months · Foundation</div>
+        <h4>Premiumise &amp; capture what already exists</h4>
+        <ul>
+          <li>Tasting menu, chef's table &amp; prepaid ticketing at the flagship.</li>
+          <li>Soft-launch packaged sauces &amp; gift sets at the restaurant and online.</li>
+          <li>Start cooking classes; lock in the cookbook/memoir; build the central kitchen.</li>
+          <li>Document every recipe — the single most important succession step.</li>
+        </ul></div>
+      <div class="tlitem"><span class="node"></span><div class="yr">Phase 2 · 1–2 years · Prove the format</div>
+        <h4>Open the owned casual sub-brand</h4>
+        <ul>
+          <li>Launch 1–2 company-owned casual Nyonya outlets in KL &amp; Penang.</li>
+          <li>Scale retail products into supermarkets; add airport/mall kiosks.</li>
+          <li>Systemise SOPs, training &amp; QA into a franchise-ready playbook.</li>
+        </ul></div>
+      <div class="tlitem"><span class="node"></span><div class="yr">Phase 3 · 3–5 years · Scale the brand</div>
+        <h4>Franchise, license &amp; export</h4>
+        <ul>
+          <li>Award domestic then regional master franchises for the casual concept.</li>
+          <li>Export packaged products to the Nyonya/Malaysian diaspora.</li>
+          <li>Selective hotel licensing &amp; international guest residencies.</li>
+        </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- RISKS -->
+<section id="risks">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <div class="kicker-line"></div>
+      <span class="eyebrow">What Could Go Wrong</span>
+      <h2>The risks that must be managed</h2>
+    </div>
+    <div class="risks reveal">
+      <div class="risk"><span class="sev high">Existential</span><h4>Succession &amp; key-person</h4>
+        <p>The star and brand are anchored to one ~73-year-old chef. Without transfer, both could be lost.</p>
+        <div class="mit"><b>Mitigate ·</b> Document all recipes; formalise the successor (daughter-in-law Jayna Tang); codify pastes in the central kitchen.</div></div>
+      <div class="risk"><span class="sev high">Critical</span><h4>Recipe IP leakage</h4>
+        <p>The recipes are the entire moat; franchising or staff churn could expose them.</p>
+        <div class="mit"><b>Mitigate ·</b> Produce centrally, ship only finished paste, NDAs, no full-recipe disclosure to any franchisee.</div></div>
+      <div class="risk"><span class="sev high">Critical</span><h4>Quality dilution &amp; star reputation</h4>
+        <p>A weak outlet or franchisee can tarnish the name and even endanger the flagship's star.</p>
+        <div class="mit"><b>Mitigate ·</b> Never franchise the flagship; separate sub-brand; strict audits; slow, selective rollout.</div></div>
+      <div class="risk"><span class="sev med">Manage</span><h4>Over-expansion &amp; capital strain</h4>
+        <p>Scaling too fast can outrun management bandwidth and cash.</p>
+        <div class="mit"><b>Mitigate ·</b> Asset-light franchise/licensing; phase-gated growth funded by prior phases.</div></div>
+      <div class="risk"><span class="sev med">Manage</span><h4>Brand confusion</h4>
+        <p>Diners may not distinguish the casual sibling from the starred flagship.</p>
+        <div class="mit"><b>Mitigate ·</b> Clear naming &amp; positioning; explicit "endorsed-by" architecture; honest marketing.</div></div>
+      <div class="risk"><span class="sev med">Manage</span><h4>Losing the "soul"</h4>
+        <p>Commercialisation can erode the authenticity that built the love in the first place.</p>
+        <div class="mit"><b>Mitigate ·</b> Keep the flagship sacred &amp; chef-led; let products carry the story, not replace it.</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <h4>About this memo</h4>
+    <p style="max-width:80ch">A strategic options analysis for Auntie Gaik Lean's Old School Eatery, building on the accompanying <a href="https://claude.ai/code/artifact/32e48fd8-9483-45a6-a007-334db1626c87">digital-footprint &amp; review analysis</a>. It draws on publicly reported facts (the Michelin star history, the chef's profile and succession notes, the Nevermore interior redesign, the Peppermint collaboration and the Penang Global Tourism partnership) to frame realistic growth paths.</p>
+    <div class="disclaimer">
+      Strategic discussion for planning purposes only — not financial, legal or investment advice, and not a business forecast. All revenue figures, percentages, fee structures and the revenue-mix illustration are indicative of typical F&amp;B models, not actual or projected results for this business. Any expansion, franchising or licensing decision requires the owners' own due diligence and professional advice.
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+  /* ----- Options data (x=feasibility, y=revenue, risk) ----- */
+  var OPTS=[
+    {n:1,x:90,y:45,risk:'low',t:'Premiumise the flagship',tags:['Quick win','0–12 mo'],
+     d:'Lift revenue from the seats you already have — a tasting/degustation menu, a chef’s table, beverage pairings and prepaid ticketing instead of refundable deposits.',
+     model:'Higher average spend per cover + reduced no-shows. No new sites, minimal capital.'},
+    {n:2,x:80,y:50,risk:'low',t:'Cooking classes & experiences',tags:['High margin','Near-term'],
+     d:'Paid Nyonya masterclasses, heritage food tours and premium “dine-with-Auntie” sessions, tied to the existing Penang Global Tourism partnership.',
+     model:'Per-seat experience fees; very high margin; deepens brand and captures the chef’s knowledge.'},
+    {n:3,x:64,y:82,risk:'med',t:'Packaged sauces & meal kits',tags:['Star play','Scalable','Succession hedge'],
+     d:'Bottled sambal, gulai-tumis paste, achar, ready-to-cook kits and frozen pie-tee shells — retail, e-commerce, supermarkets and export to the diaspora.',
+     model:'Product margin at scale, produced in a controlled central kitchen. Monetises and preserves the recipes.'},
+    {n:4,x:75,y:34,risk:'low',t:'Cookbook, memoir & media',tags:['Legacy','Low risk'],
+     d:'A memoir is reportedly already in progress; add a signed cookbook, masterclass content and brand media.',
+     model:'Royalties &amp; content income; protects the recipe canon; powerful marketing flywheel.'},
+    {n:5,x:50,y:70,risk:'med',t:'Second casual outlet (KL)',tags:['Growth engine','1–2 yr'],
+     d:'A company-owned daytime kopitiam/deli in Kuala Lumpur — set lunches, kuih counter, signatures — capturing demand the single room turns away.',
+     model:'New-site dining revenue + the prototype that later proves the franchise format.'},
+    {n:6,x:70,y:46,risk:'low',t:'Catering, pop-ups & residencies',tags:['Visibility','Low fixed cost'],
+     d:'Private events plus time-boxed guest residencies in SG/HK/Dubai luxury hotels — already proven with the Peppermint buffet collaboration.',
+     model:'Event &amp; residency fees; brand exposure in new markets without permanent overheads.'},
+    {n:7,x:30,y:90,risk:'high',t:'Franchise the casual concept',tags:['Biggest prize','High risk','3–5 yr'],
+     d:'License the systemised casual sub-brand regionally, supplied with central-kitchen sauces so recipes never leave the vault. Never the flagship, never the star.',
+     model:'Franchise fee + 5–7% royalty + 1–2% marketing levy + recurring central-kitchen supply margin (the real moat).'},
+    {n:8,x:40,y:60,risk:'high',t:'Hotel brand licensing',tags:['Premium','Careful'],
+     d:'A licensed “Auntie Gaik Lean’s” Nyonya restaurant inside a luxury hotel — lucrative but brand-risky; only with a strong operator and rigorous standards.',
+     model:'Licence fee + revenue share; asset-light but high reputational exposure.'}
+  ];
+
+  var box=document.getElementById('plotbox'), detail=document.getElementById('detail');
+  function showDetail(o){
+    document.querySelectorAll('.dot').forEach(function(x){x.classList.toggle('active',+x.dataset.n===o.n)});
+    var rk = o.risk==='low'?'Low brand risk':o.risk==='med'?'Moderate brand risk':'High brand risk';
+    detail.innerHTML='<div class="dnum">Option '+(o.n<10?'0':'')+o.n+'</div>'+
+      '<h3>'+o.t+'</h3>'+
+      '<div class="tagrow"><span class="tg risk-'+o.risk+'">'+rk+'</span>'+
+        o.tags.map(function(t){return '<span class="tg">'+t+'</span>'}).join('')+'</div>'+
+      '<p>'+o.d+'</p>'+
+      '<div class="mini">Revenue model</div><div class="model">'+o.model+'</div>';
+  }
+  OPTS.forEach(function(o){
+    var d=document.createElement('div');
+    d.className='dot r-'+o.risk; d.dataset.n=o.n;
+    d.style.left=o.x+'%'; d.style.bottom=o.y+'%';
+    var sz=24+ (o.y/100)*22;
+    d.innerHTML='<div class="bub" style="--sz:'+sz+'px">'+o.n+'</div><span class="dlab">'+o.t+'</span>';
+    d.addEventListener('click',function(){showDetail(o)});
+    d.addEventListener('mouseenter',function(){showDetail(o)});
+    box.appendChild(d);
+  });
+  showDetail(OPTS[2]); // open on the "star play" by default
+
+  /* ----- Revenue mix ----- */
+  var MIX={
+    today:[['Flagship dining',95,'#16243f'],['Other (events, etc.)',5,'#1f9d8b']],
+    future:[['Dining (flagship + casual)',45,'#16243f'],['Packaged products & retail',22,'#1f9d8b'],
+             ['Franchise royalties & supply',18,'#e6a531'],['Experiences & classes',8,'#d24a6c'],['Licensing & media',7,'#7c5cc4']]
+  };
+  var mixbar=document.getElementById('mixbar'), mixlegend=document.getElementById('mixlegend');
+  function renderMix(key){
+    mixbar.innerHTML=''; mixlegend.innerHTML='';
+    MIX[key].forEach(function(s){
+      var seg=document.createElement('div'); seg.className='mixseg'; seg.style.background=s[2];
+      seg.style.width='0%'; seg.textContent=s[1]>=8? s[1]+'%':'';
+      mixbar.appendChild(seg);
+      requestAnimationFrame(function(){ seg.style.width=s[1]+'%'; });
+      var li=document.createElement('div'); li.className='li';
+      li.innerHTML='<span class="sw" style="background:'+s[2]+'"></span>'+s[0]+' · '+s[1]+'%';
+      mixlegend.appendChild(li);
+    });
+  }
+  document.getElementById('mixtoggle').addEventListener('click',function(e){
+    var b=e.target.closest('button'); if(!b)return;
+    this.querySelectorAll('button').forEach(function(x){x.classList.remove('active')});
+    b.classList.add('active'); renderMix(b.dataset.m);
+  });
+  renderMix('today');
+
+  /* ----- reveal ----- */
+  if('IntersectionObserver' in window && !reduce){
+    var io=new IntersectionObserver(function(es){es.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
+    })},{threshold:.14});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  } else { document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')}); }
+})();
+</script>
+</body>
+</html>
